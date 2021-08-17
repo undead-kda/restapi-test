@@ -1,0 +1,27 @@
+{
+  "name": "rest_api_2",
+  "version": "1.0.0",
+  "description": "Fullstack rest api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "vuejs",
+    "rest",
+    "api",
+    "mysql",
+    "bootstrap"
+  ],
+  "author": "Dmitry A. Koshelev",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "uuid": "^8.3.2"
+  }
+}
